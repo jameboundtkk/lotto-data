@@ -1,0 +1,45 @@
+﻿{
+   "ContextClassName": "LocaldbMssqllocaldbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "lottoContext",
+   "OutputPath": "lottoModel",
+   "ProjectRootNamespace": "lotto_DB",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Account]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Menu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Role]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RoleMenu]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[SubMenu]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}
