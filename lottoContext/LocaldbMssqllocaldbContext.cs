@@ -70,11 +70,6 @@ namespace lotto_DB.lottoContext
                     .HasMaxLength(10);
 
                 entity.Property(e => e.RoleId).HasColumnName("Role_ID");
-
-                entity.HasOne(d => d.Role)
-                    .WithMany(p => p.Account)
-                    .HasForeignKey(d => d.RoleId)
-                    .HasConstraintName("FK_Account_ToRole");
             });
 
             modelBuilder.Entity<Menu>(entity =>

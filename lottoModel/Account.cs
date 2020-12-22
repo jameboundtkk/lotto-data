@@ -18,7 +18,5 @@ namespace lotto_DB.lottoModel
         public DateTime? AccountUpdateDate { get; set; }
         public string AccountUpdateby { get; set; }
         public int? RoleId { get; set; }
-
-        public virtual Role Role { get; set; }
     }
 }

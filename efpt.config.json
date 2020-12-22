@@ -14,23 +14,28 @@
    "Tables": [
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Account]"
+         "Name": "[dbo].[Account]",
+         "ObjectType": 0
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Menu]"
+         "Name": "[dbo].[Menu]",
+         "ObjectType": 0
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[Role]"
+         "Name": "[dbo].[Role]",
+         "ObjectType": 0
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[RoleMenu]"
+         "Name": "[dbo].[RoleMenu]",
+         "ObjectType": 0
       },
       {
          "HasPrimaryKey": true,
-         "Name": "[dbo].[SubMenu]"
+         "Name": "[dbo].[SubMenu]",
+         "ObjectType": 0
       }
    ],
    "UseDatabaseNames": false,
@@ -40,6 +45,5 @@
    "UseInflector": false,
    "UseLegacyPluralizer": false,
    "UseNodaTime": false,
-   "UseSpatial": false,
-   "UseStoredProcedures": false
+   "UseSpatial": false
 }
